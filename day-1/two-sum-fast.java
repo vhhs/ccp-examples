@@ -26,7 +26,7 @@ public class Solution {
     Collections.sort(nums);
 
     int idxH = 0;
-    while (nums.get(idxH) < target / 2) {
+    while (nums.get(idxH) < (target+1) / 2) {
       idxH += 1;
     }
     int idxL = idxH - 1;
